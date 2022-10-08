@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Montserrat", sans-serif;
+  font-weight: 400; */
+  background-color: rgb(79, 205, 195);
+}
+
+.main {
+  @apply font-montserrat;
+}
+
+.custom-shadow {
+  /* transition-property: all;
+  transition-duration: 8ms;
+  transition-timing-function: ease-in-out; */
+  transition: all 0.3s ease;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+}
+
+.code-main {
+  font-family: "Fira Code", monospace;
+}
+
+.custom-shadow:hover {
+  transform: translate(6px, -6px);
+  box-shadow: -10px 10px navy;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translate(6px, -6px);
+  box-shadow: -8px 8px white;
+}
