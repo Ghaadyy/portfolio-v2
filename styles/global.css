@@ -5,11 +5,11 @@
 body {
   /* font-family: "Montserrat", sans-serif;
   font-weight: 400; */
-  background-color: #4fcdc3;
+  background-color: #21c4b6;
 }
 
 .main {
-  @apply font-montserrat;
+  @apply font-nunito;
 }
 
 .custom-shadow {
