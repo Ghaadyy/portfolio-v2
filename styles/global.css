@@ -5,7 +5,7 @@
 body {
   /* font-family: "Montserrat", sans-serif;
   font-weight: 400; */
-  background-color: rgb(79, 205, 195);
+  background-color: #4fcdc3;
 }
 
 .main {
@@ -39,4 +39,14 @@ code {
 .btn:hover {
   transform: translate(6px, -6px);
   box-shadow: -8px 8px white;
+}
+
+.cursor {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
