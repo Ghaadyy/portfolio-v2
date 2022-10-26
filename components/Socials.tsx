@@ -6,7 +6,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-export default function Socials() {
+const Socials = () => {
   return (
     <div className="flex flex-row gap-3 mt-4 items-center justify-center">
       <a href="https://github.com/Ghaadyy/">
@@ -29,4 +29,6 @@ export default function Socials() {
       </a>
     </div>
   );
-}
+};
+
+export default Socials;
