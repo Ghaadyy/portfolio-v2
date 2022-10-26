@@ -19,7 +19,7 @@ const About = () => {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <br />
+          {/* <br />
           <p className="text-white text-xl">
             Some of the technologies I have worked with:
             <div className="flex flex-col md:flex-row md:gap-10 text-[navy] font-semibold">
@@ -34,7 +34,7 @@ const About = () => {
                 <li>Python</li>
               </ul>
             </div>
-          </p>
+          </p> */}
           <br />
           <p className="text-white text-xl">
             Outside of the tech world, I am a photographer. I usually go to
