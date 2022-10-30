@@ -7,7 +7,9 @@ const Footer = () => {
       <code className="text-center text-white text-sm">
         Built with ❤️ by Ghady Youssef
         <br />
-        All rights reserved © 2022
+        <span className="text-[rgb(255,255,255,0.6)]">
+          All rights reserved © 2022
+        </span>
       </code>
       <div className="flex md:hidden">
         <Socials />

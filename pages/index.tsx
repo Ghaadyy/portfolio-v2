@@ -30,7 +30,7 @@ const Home = () => {
       </Head>
 
       <div className="App flex flex-col">
-        <div className="flex flex-col code-div justify-center px-10 md:pl-40 gap-5 w-[100vw] md:w-[90vw] overflow-x-hidden overflow-y-hidden">
+        <div className="flex flex-col code-div justify-center px-10 lg:pl-40 gap-5 w-[100vw] lg:w-[90vw] overflow-x-hidden overflow-y-hidden">
           {/* Header Section */}
           <Header />
 

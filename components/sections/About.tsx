@@ -7,12 +7,12 @@ const About = () => {
       <p className="text-white text-3xl font-bold mb-5 text-justify">
         about me
       </p>
-      <div className="flex flex-row items-center">
-        <div className="flex flex-col max-w-xl mr-10">
-          <p className="text-white text-xl">
+      <div className="flex flex-row sm:flex-col sm:gap-5 lg:flex-row lg:items-center">
+        <div className="flex flex-col max-w-xl md:mr-10">
+          <p className="text-white text-xl text-justify">
             I am a first year computer science student at{" "}
             <span className="font-bold text-[navy]">
-              Saint Joseph's Universty of Beirut.
+              Saint Joseph Universty of Beirut.
             </span>{" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </p> */}
           <br />
-          <p className="text-white text-xl">
+          <p className="text-white text-xl text-justify">
             Outside of the tech world, I am a photographer. I usually go to
             spots and take some shots to post them online.
           </p>
