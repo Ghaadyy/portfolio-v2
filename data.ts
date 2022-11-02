@@ -1,6 +1,6 @@
 const info: { text: string; title: string }[] = [
   {
-    text: "My first portfolio that got me accepted into 10 universities in France. I built it before applying to these universities and I used NextJS to create it.",
+    text: "My first portfolio that I built using Next.js and Tailwind CSS.",
     title: "Portfolio v1",
   },
   {
@@ -12,16 +12,8 @@ const info: { text: string; title: string }[] = [
     title: "Guessing Game",
   },
   {
-    text: "Zoey the Book App is a project that I contributed to during summer to help students exchange books before the begining of the school year.",
-    title: "Livent App",
-  },
-  {
-    text: "Hello my name is Ghady Youssef, I am a first year computer science student at USJ.",
-    title: "Introduction",
-  },
-  {
-    text: "Zoey the Book App is a project that I contributed to during summer to help students exchange books before the begining of the school year.",
-    title: "Title of experience",
+    title: "Portfolio v2",
+    text: "Work in progress...",
   },
 ];
 

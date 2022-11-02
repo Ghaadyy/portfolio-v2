@@ -15,11 +15,6 @@ const Card = ({ title, text }) => {
         </a>
       </div>
       <p className="text-justify">{text}</p>
-      {/* {text && (
-        <button className="bg-yellow-400 border-2 border-black py-3 px-4 my-2 w-fit">
-          <code>{textBtn}</code>
-        </button>
-      )} */}
     </div>
   );
 };

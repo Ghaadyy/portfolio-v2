@@ -3,7 +3,10 @@ import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row h-screen w-[100%] items-center justify-center md:justify-between">
+    <section
+      id="home"
+      className="flex flex-col md:flex-row h-screen w-[100%] items-center justify-center md:justify-between"
+    >
       <div className="flex flex-col items-center md:items-start justify-center w-[100%] text-center md:text-left max-w-xl">
         <Typewriter
           onInit={(typewriter) => {
@@ -12,12 +15,9 @@ const Header = () => {
                 "Hi, I'm <span class='font-bold text-[navy]'>Ghady.</span>"
               )
               .start();
-            // .pauseFor(2500)
-            // .deleteAll()
           }}
           options={{
             autoStart: true,
-            // loop: true,
             skipAddStyles: true,
             wrapperClassName:
               "text-5xl text-white text-center md:text-left font-semibold",
@@ -35,7 +35,7 @@ const Header = () => {
           Check out my CV
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

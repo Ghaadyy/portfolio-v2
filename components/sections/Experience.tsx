@@ -4,7 +4,7 @@ import Card from "../Card";
 
 const Experience = () => {
   return (
-    <section className="flex flex-col mb-5">
+    <section id="experience" className="flex flex-col mb-5">
       <p className="text-white text-3xl font-bold mb-5 text-justify">
         experience
       </p>

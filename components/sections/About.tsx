@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="mb-20">
+    <section id="about" className="mb-20">
       <p className="text-white text-3xl font-bold mb-5 text-justify">
         about me
       </p>
@@ -13,28 +13,17 @@ const About = () => {
             I am a first year computer science student at{" "}
             <span className="font-bold text-[navy]">
               Saint Joseph Universty of Beirut.
-            </span>{" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            </span>
+            <br />I have worked with many technologies, like{" "}
+            <span className="font-bold text-[navy]">React.js</span> to create
+            web applications. Currently, I am learning{" "}
+            <span className="font-bold text-[navy]">C#</span> and{" "}
+            <span className="font-bold text-[navy]">.NET</span> to create
+            desktop applications in my computer science courses.
+            <br />I have great interest in software engineering. My goal is to
+            be able to create efficient software, greatly designed and easy to
+            use.
           </p>
-          {/* <br />
-          <p className="text-white text-xl">
-            Some of the technologies I have worked with:
-            <div className="flex flex-col md:flex-row md:gap-10 text-[navy] font-semibold">
-              <ul className="list-[square] list-inside">
-                <li>HTML & CSS</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-              </ul>
-              <ul className="list-[square] list-inside">
-                <li>C#</li>
-                <li>Javascript ES6+</li>
-                <li>Python</li>
-              </ul>
-            </div>
-          </p> */}
           <br />
           <p className="text-white text-xl text-justify">
             Outside of the tech world, I am a photographer. I usually go to
