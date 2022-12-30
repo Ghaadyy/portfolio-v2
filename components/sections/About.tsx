@@ -11,14 +11,14 @@ const About = () => {
         <div className="flex flex-col max-w-xl md:mr-10">
           <p className="text-white text-xl text-left md:text-justify">
             I am a first year computer science student at{" "}
-            <span className="font-bold text-[#2a4494]">
+            <span className="font-bold text-[#ffc857]">
               Saint Joseph Universty of Beirut.
             </span>
             <br />I have worked with many technologies, like{" "}
-            <span className="font-bold text-[#2a4494]">React.js</span> to create
+            <span className="font-bold text-[#ffc857]">React.js</span> to create
             web applications. Currently, I am learning{" "}
-            <span className="font-bold text-[#2a4494]">C#</span> and{" "}
-            <span className="font-bold text-[#2a4494]">.NET</span> to create
+            <span className="font-bold text-[#ffc857]">C#</span> and{" "}
+            <span className="font-bold text-[#ffc857]">.NET</span> to create
             desktop applications in my computer science courses.
             <br />I have great interest in software engineering. My goal is to
             be able to create efficient software, greatly designed and easy to

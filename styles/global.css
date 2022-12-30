@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #21c4b6;
+  background-color: #084c61;
 }
 
 .main {
@@ -28,7 +28,7 @@ code {
 
 .custom-shadow:hover {
   transform: translate(6px, -6px);
-  box-shadow: -10px 10px #2a4494;
+  box-shadow: -10px 10px #ffc857;
 }
 
 .btn {

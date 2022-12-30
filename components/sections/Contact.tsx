@@ -15,7 +15,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <div className="bg-yellow-400 border-2 border-black py-3 px-4 btn">
+            <div className="bg-[#ffc857] border-2 border-black py-3 px-4 btn">
               <p>Say Hello!</p>
             </div>
           </a>

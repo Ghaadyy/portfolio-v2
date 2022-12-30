@@ -27,7 +27,20 @@ const Home = () => {
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <meta name="theme-color" content="#21c4b6" />
+        <meta name="theme-color" content="#084c61" />
+        <meta property="og:site_name" content="Ghady Youssef" />
+        <meta property="og:title" content="Ghady Youssef" />
+        <meta
+          property="og:description"
+          content="Computer Science student at USJ"
+        />
+        <meta property="og:image" content="https://ghady.vercel.app/og.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:url" content="https://ghady.vercel.app/" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="App flex flex-col">
