@@ -5,6 +5,7 @@ import Footer from "../components/sections/Footer";
 import About from "../components/sections/About";
 import Experience from "../components/sections/Experience";
 import Sidebar from "../components/sections/Sidebar";
+import Contact from "../components/sections/Contact";
 
 const Home = () => {
   return (
@@ -30,7 +31,7 @@ const Home = () => {
       </Head>
 
       <div className="App flex flex-col">
-        <div className="flex flex-col code-div justify-center px-10 lg:pl-40 gap-5 w-[100vw] lg:w-[90vw] overflow-x-hidden overflow-y-hidden">
+        <div className="justify-center px-10 md:px-15 lg:px-30 xl:px-40 gap-5">
           {/* Header Section */}
           <Header />
 
@@ -39,13 +40,18 @@ const Home = () => {
 
           {/* Experience Section */}
           <Experience />
+
+          {/* Contact me Section */}
+          <Contact />
+
+          {/* Footer */}
+          <Footer />
         </div>
 
-        {/* Footer */}
-        <Footer />
-
         {/* Sidebar */}
-        <Sidebar />
+        <div className="items-end right-0 left-auto bottom-0 fixed">
+          <Sidebar />
+        </div>
       </div>
     </div>
   );

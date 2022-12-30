@@ -28,7 +28,7 @@ code {
 
 .custom-shadow:hover {
   transform: translate(6px, -6px);
-  box-shadow: -10px 10px navy;
+  box-shadow: -10px 10px #2a4494;
 }
 
 .btn {

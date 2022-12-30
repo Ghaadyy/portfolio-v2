@@ -14,6 +14,8 @@ const Experience = () => {
             text={item.text}
             key={(Math.random() * 100).toString()}
             title={item.title}
+            tags={item.tags}
+            link={item.link}
           />
         ))}
       </div>

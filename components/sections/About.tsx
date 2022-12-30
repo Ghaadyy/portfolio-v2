@@ -9,16 +9,16 @@ const About = () => {
       </p>
       <div className="flex flex-row sm:flex-col sm:gap-5 lg:flex-row lg:items-center">
         <div className="flex flex-col max-w-xl md:mr-10">
-          <p className="text-white text-xl text-justify">
+          <p className="text-white text-xl text-left md:text-justify">
             I am a first year computer science student at{" "}
-            <span className="font-bold text-[navy]">
+            <span className="font-bold text-[#2a4494]">
               Saint Joseph Universty of Beirut.
             </span>
             <br />I have worked with many technologies, like{" "}
-            <span className="font-bold text-[navy]">React.js</span> to create
+            <span className="font-bold text-[#2a4494]">React.js</span> to create
             web applications. Currently, I am learning{" "}
-            <span className="font-bold text-[navy]">C#</span> and{" "}
-            <span className="font-bold text-[navy]">.NET</span> to create
+            <span className="font-bold text-[#2a4494]">C#</span> and{" "}
+            <span className="font-bold text-[#2a4494]">.NET</span> to create
             desktop applications in my computer science courses.
             <br />I have great interest in software engineering. My goal is to
             be able to create efficient software, greatly designed and easy to
@@ -26,11 +26,11 @@ const About = () => {
           </p>
           <br />
           <p className="text-white text-xl text-justify">
-            Outside of the tech world, I am a photographer. I usually go to
-            spots and take some shots to post them online.
+            Outside of the tech world, I am a photographer. I enjoy expressing
+            my creativity with my 📷.
           </p>
         </div>
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <div className="h-[200px] w-[200px] md:h-[300px] md:w-[300px] relative shadow-xl rounded-full md:rounded-xl">
             <Image
               priority={true}
