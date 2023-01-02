@@ -28,7 +28,7 @@ const Card = ({ title, text, tags, link }: Card) => {
       </div>
       <div className="flex flex-row flex-wrap gap-x-2 text-xs sm:text-sm text-[#084c61]">
         {tags.map((tag) => (
-          <p>{tag}</p>
+          <p key={(Math.random() * 100).toString()}>{tag}</p>
         ))}
       </div>
     </div>
