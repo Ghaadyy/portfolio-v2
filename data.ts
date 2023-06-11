@@ -10,7 +10,7 @@ const info: Card[] = [
     text: "A task manager app that allows you to set your tasks and manage them according to their current status.",
     title: "Task Manager App",
     tags: ["React.js", "TypeScript", "C#", "ASP.NET", "MySQL"],
-    link: "",
+    link: "https://github.com/Ghaadyy/task-manager-react",
   },
   {
     text: "A real-time WhatsApp clone made using C# and Windows Forms",
