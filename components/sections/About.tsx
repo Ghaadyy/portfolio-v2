@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ProfilePhoto from "../../public/static/IMG_7613.jpg";
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
             <Image
               // priority={true}
               placeholder="blur"
-              src="/static/IMG_7613.jpg"
+              src={ProfilePhoto}
               alt=""
               layout="fill"
               objectFit="cover"
