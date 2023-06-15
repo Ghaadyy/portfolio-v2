@@ -33,7 +33,8 @@ const About = () => {
         <div className="hidden lg:flex">
           <div className="h-[200px] w-[200px] md:h-[300px] md:w-[300px] relative shadow-xl rounded-full md:rounded-xl">
             <Image
-              priority={true}
+              // priority={true}
+              placeholder="blur"
               src="/static/IMG_7613.jpg"
               alt=""
               layout="fill"
