@@ -8,7 +8,7 @@ const About = () => {
       <p className="text-white text-3xl font-bold mb-5 text-justify">
         about me
       </p>
-      <div className="flex flex-row sm:flex-col sm:gap-5 lg:flex-row lg:items-center">
+      <div className="flex flex-col gap-10 sm:gap-5 lg:flex-row lg:items-center">
         <div className="flex flex-col max-w-xl md:mr-10">
           <p className="text-white text-xl text-left md:text-justify">
             I am a first year computer science student at{" "}
@@ -31,16 +31,15 @@ const About = () => {
             my creativity with my 📷.
           </p>
         </div>
-        <div className="hidden lg:flex">
-          <div className="h-[200px] w-[200px] md:h-[300px] md:w-[300px] relative shadow-xl rounded-full md:rounded-xl">
+        <div className="flex self-center sm:self-auto">
+          <div className="h-[200px] w-[200px] md:h-[300px] md:w-[300px] relative shadow-xl md:rounded-xl overflow-hidden">
             <Image
-              // priority={true}
               placeholder="blur"
               src={ProfilePhoto}
               alt=""
               layout="fill"
               objectFit="cover"
-              className="rounded-full md:rounded-xl"
+              className="rounded-xl"
             />
           </div>
         </div>
