@@ -32,7 +32,7 @@ const About = () => {
           </p>
         </div>
         <div className="flex self-center sm:self-auto">
-          <div className="h-[200px] w-[200px] md:h-[300px] md:w-[300px] relative shadow-xl md:rounded-xl overflow-hidden">
+          <div className="h-[200px] w-[200px] md:h-[300px] md:w-[300px] relative shadow-xl rounded-xl overflow-hidden">
             <Image
               placeholder="blur"
               src={ProfilePhoto}
