@@ -34,7 +34,10 @@ const Home = () => {
           property="og:description"
           content="Computer Science student at USJ"
         />
-        <meta property="og:image" content="https://ghady.vercel.app/og.png" />
+        <meta
+          property="og:image"
+          content="https://ghady.vercel.app/static/IMG_7613.jpg"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="300" />
