@@ -36,13 +36,13 @@ const Home = () => {
         />
         <meta
           property="og:image"
-          content="https://ghady.vercel.app/static/IMG_7613.jpg"
+          content="https://ghady.vercel.app/static/avatar-256.png"
         />
         <meta property="og:type" content="website" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="300" />
         <meta property="og:image:height" content="300" />
-        <meta property="og:url" content="https://ghady.vercel.app/" />
+        <meta property="og:url" content="https://ghady.me/" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
