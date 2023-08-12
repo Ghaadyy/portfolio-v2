@@ -26,7 +26,7 @@ const Header = () => {
           }}
         />
         <p className="mt-5 text-white font-semibold text-lg text-center md:text-justify md:mr-5">
-          I'm a first year computer science student based in{" "}
+          I'm a computer science student based in{" "}
           <span className="font-bold text-[#ffc857]">Beirut, Lebanon.</span>{" "}
           <br />I have great interest in software engineering, web development,
           artificial intelligence and everything in between.

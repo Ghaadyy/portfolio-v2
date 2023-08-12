@@ -11,7 +11,7 @@ const About = () => {
       <div className="flex flex-col gap-10 sm:gap-5 lg:flex-row lg:items-center">
         <div className="flex flex-col max-w-xl md:mr-10">
           <p className="text-white text-xl text-left md:text-justify">
-            I am a first year computer science student at{" "}
+            I am a computer science student at{" "}
             <span className="font-bold text-[#ffc857]">
               Saint Joseph Universty of Beirut.
             </span>
